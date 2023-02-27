@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-container {
+    height: 100vh;
+    background-color: #FaFaFa;
+}
+
+.card {
+    height: 430px;
+    width: 320px;
+    background: linear-gradient(#42C2FF 110px, #ffffff 110px);
+    border-radius: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.user-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    border: solid #ffffff 8px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.user-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #42C2FF;
+    margin-top: 10px;
+}
+
+.user-role {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.count-text {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.msg-btn {
+    border: solid #42C2FF 2px;
+    border-radius: 25px;
+    height: 45px;
+    width: 100px;
+    background-color: #ffffff;
+    font-weight: 500;
+}
+
+.follow-btn {
+    border: none;
+    border-radius: 25px;
+    height: 45px;
+    width: 90px;
+    background-color: #42C2FF;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.profile-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #42C2FF;
+}
